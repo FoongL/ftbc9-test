@@ -1,7 +1,7 @@
 // Bubble sort Implementation using Javascript
 
 // Creating the bblSort function
-function bblSort(arr) {
+function bblSort2(arr) {
   for (var i = 0; i < arr.length; i++) {
     // Last i elements are already in place
     for (var j = 0; j < arr.length - i - 1; j++) {
@@ -23,4 +23,4 @@ function bblSort(arr) {
 var arr = [234, 43, 55, 63, 5, 6, 235, 547];
 
 // Now pass this array to the bblSort() function
-bblSort(arr);
+bblSort2(arr);
